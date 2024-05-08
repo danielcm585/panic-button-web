@@ -1,5 +1,5 @@
 'use client';
-export default function Home() {
+export default function HomePage() {
     return (
         <main className="flex flex-col justify-between h-screen items-stretch py-20">
             <h1 className="w-full text-center font-bold text-3xl">
