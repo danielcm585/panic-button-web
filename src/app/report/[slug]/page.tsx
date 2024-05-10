@@ -46,9 +46,13 @@ export default function ReportPage() {
             {image && (
                 <>
                     <img src={image} alt='Taken photo' />
+                    <textarea 
+                        placeholder="Enter short description"
+                        className="w-full p-4 rounded-lg bg-gray-100 border-2 border-gray-200" 
+                    />
                     <button 
                         onClick={onSubmit}
-                        className="w-full bg-red-500 py-4 text-lg rounded-lg font-semibold"
+                        className="w-full bg-red-500 py-4 text-lg rounded-lg"
                     >
                         Submit
                     </button>
