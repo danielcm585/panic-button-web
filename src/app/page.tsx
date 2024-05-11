@@ -11,7 +11,7 @@ export default function HomePage() {
             <div className="flex gap-4 justify-center w-full">
                 <button 
                     onClick={() => window.location.href = '/report/ambulance'}
-                    className="font-semibold text-2xl bg-green-500 h-[250px] w-[250px] rounded-full shadow-2xl"
+                    className="font-semibold text-2xl bg-green-500 h-[180px] w-[180px] rounded-full shadow-2xl"
                 >
                     Ambulance
                 </button>
@@ -19,7 +19,7 @@ export default function HomePage() {
             <div className="flex gap-4 justify-center w-full">
                 <button 
                     onClick={() => window.location.href = '/report/police'}
-                    className="font-semibold text-2xl bg-blue-500 h-[250px] w-[250px] rounded-full shadow-2xl"
+                    className="font-semibold text-2xl bg-blue-500 h-[180px] w-[180px] rounded-full shadow-2xl"
                 >
                     Police
                 </button>
@@ -27,7 +27,7 @@ export default function HomePage() {
             <div className="flex gap-4 justify-center w-full">
                 <button 
                     onClick={() => window.location.href = '/report/firefighter'}
-                    className="font-semibold text-2xl bg-red-500 h-[250px] w-[250px] rounded-full shadow-2xl"
+                    className="font-semibold text-2xl bg-red-500 h-[180px] w-[180px] rounded-full shadow-2xl"
                 >
                     Firefighter
                 </button>
