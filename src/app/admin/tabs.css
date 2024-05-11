@@ -1,0 +1,51 @@
+/* Styles for the tab list */
+.tab-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    
+    border-bottom: 2px solid #d1d5db; /* light grey border */
+}
+
+/* Styles for each tab */
+.tab {
+    padding: 12px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #4b5563; /* grey text */
+    border: 2px solid transparent; /* transparent border for a clean look */
+}
+
+.tab[aria-selected="true"] {
+    background: #ffffff; /* white background for active tab */
+    border-color: #d1d5db; /* light grey border */
+    border-bottom: none; /* remove bottom border */
+    color: #111827; /* darker text for active tab */
+}
+
+/* Styles for the tab panel */
+.tab-panel {
+    background-color: #ffffff; /* white background */
+}
+
+/* Button styles within the tab panels */
+.tab-panel button {
+    margin-top: 10px;
+}
+
+/* Additional utility classes for alignment and spacing */
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-6 {
+    gap: 24px;
+}
