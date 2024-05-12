@@ -39,7 +39,7 @@ export default function AdminPage() {
     ])
 
     return (
-        <div className="py-20 px-6 flex flex-col gap-6 ">
+        <main className="py-20 px-6 flex flex-col gap-6">
             <h1 className="text-3xl font-bold">ADMIN</h1>
             <Tabs>
                 <TabList className="tab-list">
@@ -98,6 +98,6 @@ export default function AdminPage() {
                     ))}
                 </TabPanel>
             </Tabs>
-        </div>
+        </main>
     )
 }
